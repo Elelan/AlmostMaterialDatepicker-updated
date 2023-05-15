@@ -17,14 +17,14 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Style for dialog labels. -->
     <style name="amdp_time_label_thin">
-        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="fontFamily">sans-serif-light</item>
     </style>
 
     <style name="amdp_done_button_light">
-        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="fontFamily">sans-serif-light</item>
     </style>
 
     <style name="amdp_day_of_week_label_condensed">
-        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="fontFamily">sans-serif-condensed</item>
     </style>
 </resources>

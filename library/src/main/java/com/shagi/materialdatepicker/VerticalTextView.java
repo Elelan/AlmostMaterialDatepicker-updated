@@ -2,10 +2,12 @@ package com.shagi.materialdatepicker;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import android.support.v7.widget.AppCompatTextView;
 import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.view.Gravity;
+import androidx.appcompat.widget.AppCompatTextView;
+
+
 
 public class VerticalTextView extends AppCompatTextView {
     final boolean topDown;

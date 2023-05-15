@@ -16,6 +16,7 @@
 
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="@dimen/amdp_date_picker_component_width"
     android:layout_height="@dimen/amdp_date_picker_view_animator_height">
 
@@ -35,7 +36,7 @@
         android:background="?selectableItemBackgroundBorderless"
         android:clickable="true"
         android:rotation="90"
-        android:src="@drawable/amdp_arrow_down"
+        app:srcCompat="@drawable/amdp_arrow_down"
         android:focusable="true"/>
 
     <ImageView
@@ -47,6 +48,6 @@
         android:background="?selectableItemBackgroundBorderless"
         android:clickable="true"
         android:rotation="-90"
-        android:src="@drawable/amdp_arrow_down"
+        app:srcCompat="@drawable/amdp_arrow_down"
         android:focusable="true"/>
 </FrameLayout>

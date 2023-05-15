@@ -17,9 +17,10 @@
 package com.shagi.materialdatepicker.date;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
 import android.widget.AbsListView.LayoutParams;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.Calendar;
 import java.util.TimeZone;
